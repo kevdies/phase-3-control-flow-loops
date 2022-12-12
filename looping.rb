@@ -32,4 +32,11 @@ end
 
 def reverse_string(str)
   # your code here
+  # string.methods
+  # return str.reverse this works but use something else for test
+  reversed = ""
+  for i in 1..str.length
+    reversed += str[str.length - i]
+  end
+  return reversed
 end
